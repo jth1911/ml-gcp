@@ -1,0 +1,29 @@
+# anaconda3
+- conda update --all
+
+# Setup gcloud and gsutil
+- export CLOUDSDK_PYTHON="/Users/jamesharding/opt/anaconda3/bin/python"
+- gcloud CLI cheat sheet
+
+# Managing gcloud CLI components: 
+- https://cloud.google.com/sdk/docs/components
+
+
+# Create conda environment
+conda create --name gemini python=3.11
+
+# To activate this environment, use
+conda activate gemini
+
+# To deactivate an active environment, use
+conda deactivate
+
+# To remove an environment
+conda remove --name gemini --all
+
+# Install necessary python libraries
+conda install jupyter
+conda install Pillow
+pip install google-cloud-aiplatform --upgrade
+
+# Attach environment to Google Cloud
