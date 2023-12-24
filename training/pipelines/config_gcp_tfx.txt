@@ -1,0 +1,17 @@
+# Create an environment specifically for tfx pipelines
+
+# On your laptop
+conda create -n tfx-1-14-0 python=3.8
+conda activate tfx-1-14-0
+
+# upgrade pip
+pip install --upgrade pip
+
+# install required packages
+pip install -- upgrade "tfx[kfp]<2"
+
+
+
+# You may have to remove your environment if you choose the wrong configurations
+conda deactivate
+conda remove --name tfx-1-14-0 --all
