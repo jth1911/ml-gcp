@@ -167,3 +167,5 @@ cython_debug/
 
 #MacOS
 .DS_Store
+articles/
+vertexai-llm/generative_ai/language/wikiHowSummarization/articles/
